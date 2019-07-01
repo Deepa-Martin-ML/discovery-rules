@@ -1,19 +1,64 @@
 {
 "services": [
-{
-"name": "redis",
-"port": 6379,
-"pollinterval":300
-},
-{
-"name": "node-exporter",
-"port": 9100,
-"pollinterval":300
-},
-{
-"name": "redis-exporter",
-"port": 9121,
-"pollinterval":300
-}
-]
+    {
+      "name": "redis",
+      "port": 6379,
+      "pollinterval":300
+    },
+    {
+      "name": "postgres",
+      "port": 5432,
+      "pollinterval":300
+    },
+    {
+      "name": "mysql",
+      "port": 3306,
+      "pollinterval":300
+    },
+    {
+      "name": "elasticsearch",
+      "port": 9200,
+      "pollinterval":300
+    },
+    {
+      "name": "apache",
+      "port": 80,
+      "pollinterval":300
+    },
+    {
+      "name": "node-exporter",
+      "port": 9100,
+      "pollinterval":300
+    },
+    {
+      "name": "redis-exporter",
+      "port": 9121,
+      "pollinterval":300
+    },
+    {
+      "name": "elasticsearch-exporter",
+      "port": 9108,
+      "pollinterval":300
+    },
+    {
+      "name": "postgres-exporter",
+      "port": 9187,
+      "pollinterval":300
+    },
+    {
+      "name": "mysql-exporter",
+      "port": 9104,
+      "pollinterval":300
+    },
+    {
+      "name": "apache-exporter",
+      "port": 9117,
+      "pollinterval":300
+    },
+    {
+      "name": "jmx-exporter",
+      "port": 9110,
+      "pollinterval":300
+    }
+  ]
 }
