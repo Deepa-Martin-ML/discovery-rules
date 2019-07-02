@@ -57,7 +57,7 @@
     },
     {
       "name": "jmx-exporter",
-      "port": 9110,
+      "port": 9404,
       "pollinterval":300
     }
   ]
